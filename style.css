@@ -1,0 +1,91 @@
+/* Basic reset styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans for maximum meme vibes */
+}
+
+/* Background styling */
+.background_menu {
+  background-image: url("hero.jpg"); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(rgba(255, 192, 203, 0.5), rgba(255, 192, 203, 0.8)); /* Pink gradient background */
+  display: flex; /* Allows stacking content on top of background */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+/* Menu container styling */
+#menu {
+  border: 4px solid #FF69B4; /* Hot pink border */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 20px; /* Rounded corners */
+  color: #FF69B4; /* Hot pink text color */
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  gap: 30px; /* Spacing between elements */
+}
+
+/* Image container styling */
+#img_container {
+  text-align: center; /* Centers image horizontally */
+}
+
+#img_container img {
+  width: 150px; /* Adjust image width as needed */
+  height: auto; /* Maintains image aspect ratio */
+  border-radius: 50%; /* Circular image */
+}
+
+/* Content section styling */
+#content {
+  text-align: center;
+}
+
+#content h1 {
+  font-size: 4em; /* Large heading size */
+  margin-bottom: 10px;
+}
+
+#content p {
+  font-size: 1.2em; /* Medium paragraph size */
+  line-height: 1.5; /* Spacing between lines */
+}
+
+/* Instructions section styling */
+#instructions {
+  text-align: center; /* Center instructions */
+}
+
+#instructions h2 {
+  font-size: 2em; /* Large heading size */
+  color: #FF69B4; /* Hot pink color */
+}
+
+#instructions p {
+  font-size: 1em; /* Small paragraph size */
+}
+
+/* Play button styling */
+#play_button, #back_button {
+  background-color: #FF69B4; /* Hot pink button color */
+  color: white; /* White text color */
+  padding: 15px 30px; /* Padding top and bottom, more padding left and right */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.5em; /* Large button text */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+#play_button:hover, #back_button:hover {
+  background-color: #FF1493; /* Darker pink color on hover */
+}
+
+/* Adjust button spacing */
+#play_button {
+  margin-bottom: 20px;
+}
